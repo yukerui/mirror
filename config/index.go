@@ -24,13 +24,13 @@ type Yaml struct {
 var data = `
 enable_ssl: True
 handle_cookie: True
-
 host:
   self: lovexl.now.sh
-  proxy: drive.decrease.workers.dev
-
+  proxy: s2-us2.startpage.com
 replaced_urls:
-  - old: drive.decrease.workers.dev
+  - old: www.startpage.com
+    new: s2-us2.startpage.com
+  - old: s2-us2.startpage.com
     new: lovexl.now.sh
 `
 var Config *Yaml
