@@ -26,12 +26,12 @@ enable_ssl: True
 handle_cookie: True
 
 host:
-  self: mirror.loerfy.now.sh
-  proxy: www.google.com
+  self: lovexl.now.sh
+  proxy: drive.decrease.workers.dev
 
 replaced_urls:
-  - old: www.google.com
-    new: mirror.loerfy.now.sh
+  - old: drive.decrease.workers.dev
+    new: lovexl.now.sh
 `
 var Config *Yaml
 var Protocal string
